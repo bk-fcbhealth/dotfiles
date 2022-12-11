@@ -1,0 +1,29 @@
+pane	config	1	0	:	1	:/Users/brian.kleiner/.config/nvim	1	zsh	:
+pane	config	2	0	:-	1	:/Users/brian.kleiner/.tmux	1	zsh	:
+pane	config	3	1	:*	1	:/Users/brian.kleiner/vimwiki	1	zsh	:
+pane	iva	1	0	:-	1	:/Users/brian.kleiner/Dev/Projects/iVA/Stiolto/stiolto-master-iva	1	zsh	:
+pane	iva	2	0	:	1	:/Users/brian.kleiner/Dev/Projects/iVA/Stiolto/stiolto-master-iva	1	zsh	:
+pane	iva	3	1	:*	1	:/Users/brian.kleiner/Dev/Projects/iVA/Spiriva/spiriva-master-iva	1	zsh	:
+pane	panel	1	1	:*	1	:/Users/brian.kleiner/Dev/Projects/Panels/Ofev/ssc-ild-ats-touchpanel	1	zsh	:
+pane	panel	2	0	:-	1	:/Users/brian.kleiner/Dev/Projects/Panels/Ofev/OLD-gitlab/OFEV-PANEL-CHEST-SSc-ILD	1	zsh	:
+pane	playground	1	0	:-	1	:/Users/brian.kleiner/Dev/Personal/excel-json	1	zsh	:
+pane	playground	2	1	:*	1	:/Users/brian.kleiner/Dev/Personal/Sendgridifier	1	zsh	:
+pane	website	1	1	:*	1	:/Users/brian.kleiner/Dev/Projects/Website/fcb-relief-therapeutics/pkugolikehcp.com-website	1	zsh	:
+pane	website	2	0	:-	1	:/Users/brian.kleiner/Dev/Projects/Website/fcb-relief-therapeutics/pkugolike.com-website	1	zsh	:
+pane	website	3	0	:	1	:/Users/brian.kleiner/Dev/Projects/Website/Agios/activatekidsclinicaltrials.com	1	zsh	:
+pane	website	4	0	:	1	:/Users/brian.kleiner/Dev/Projects/Website/Agios/pyrukynd.com	1	zsh	:
+window	config	1	:nvim	0	:	c0fe,124x64,0,0,1	off
+window	config	2	:tmux	0	:-	c0ff,124x64,0,0,2	off
+window	config	3	:wiki	1	:*	c100,124x64,0,0,3	off
+window	iva	1	:live	0	:-	60af,124x64,0,0,10	off
+window	iva	2	:stiolto	0	:	60b0,124x64,0,0,11	off
+window	iva	3	:spiriva	1	:*	60b1,124x64,0,0,12	off
+window	panel	1	:ssc	1	:*	60b2,124x64,0,0,13	off
+window	panel	2	:zsh	0	:-	60b3,124x64,0,0,14	:
+window	playground	1	:excel	0	:-	60b4,124x64,0,0,15	off
+window	playground	2	:sendgrid	1	:*	60b6,124x64,0,0,17	off
+window	website	1	:pkuGoLikeHCP	1	:*	60b8,124x64,0,0,19	off
+window	website	2	:pkuGoLike	0	:-	e0af,124x64,0,0,20	off
+window	website	3	:acKidsTrl	0	:	e0b0,124x64,0,0,21	off
+window	website	4	:pyrukynd	0	:	e0b1,124x64,0,0,22	off
+state	website	playground

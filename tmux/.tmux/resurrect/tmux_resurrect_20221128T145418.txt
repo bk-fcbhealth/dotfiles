@@ -1,0 +1,45 @@
+pane	config	1	0	:	1	:/Users/brian.kleiner/.config/nvim	1	zsh	:
+pane	config	2	0	:	1	:/Users/brian.kleiner/.tmux	1	zsh	:
+pane	config	3	0	:-	1	:/Users/brian.kleiner/vimwiki	1	zsh	:
+pane	config	4	1	:*	1	:/Users/brian.kleiner/.config/nvim	1	zsh	:
+pane	emails	1	0	:	1	:/Users/brian.kleiner/Dev/Projects/Emails/EPCLUSA%20Emails/VEEVA	1	zsh	:
+pane	emails	2	0	:	1	:/Users/brian.kleiner/Dev/Projects/Emails/Sarclisa%20Emails	1	zsh	:
+pane	emails	3	0	:	1	:/Users/brian.kleiner/Dev/Projects/Emails/Sanofi/Aprolix-Emails/11619775_FcFusionVideo_RTE_Email	1	zsh	:
+pane	emails	4	0	:-	1	:/Users/brian.kleiner/Dev/Projects/Emails/Gilead/HepD-Emails/2022/11698987\ - HepD Speaker Bureau RTE (Rep Triggered Email)	1	zsh	:
+pane	emails	5	1	:*	1	:/Users/brian.kleiner/Dev/Projects/Emails/Nuzyra/all-emails	1	zsh	:
+pane	iva	1	0	:-	1	:/Users/brian.kleiner/Dev/Projects/iVA/Stiolto/stiolto-master-iva	1	zsh	:
+pane	iva	2	0	:	1	:/Users/brian.kleiner/Dev/Projects/iVA/Stiolto/stiolto-master-iva	1	zsh	:
+pane	iva	3	1	:*	1	:/Users/brian.kleiner/Dev/Projects/iVA/Spiriva/spiriva-master-iva	1	nvim	:nvim .
+pane	panel	1	0	:-	1	:/Users/brian.kleiner/Dev/Projects/Panels/Ofev/ssc-ild-ats-touchpanel	1	zsh	:
+pane	panel	2	1	:*	1	:/Users/brian.kleiner/Dev/Projects/Panels/Ofev/OLD-gitlab/OFEV-PANEL-CHEST-SSc-ILD	1	zsh	:
+pane	playground	1	0	:	1	:/Users/brian.kleiner/Dev/Personal/excel-json	1	zsh	:
+pane	playground	2	0	:-	1	:/Users/brian.kleiner/vimwiki	1	zsh	:
+pane	playground	3	0	:	1	:/Users/brian.kleiner/Dev/Personal/Sendgridifier	1	zsh	:
+pane	playground	4	1	:*	1	:/Users/brian.kleiner/Desktop	1	zsh	:
+pane	website	1	1	:*	1	:/Users/brian.kleiner/Dev/Projects/Website/fcb-relief-therapeutics/pkugolikehcp.com-website	1	zsh	:
+pane	website	2	0	:-	1	:/Users/brian.kleiner/Dev/Projects/Website/fcb-relief-therapeutics/pkugolike.com-website	1	zsh	:
+pane	website	3	0	:	1	:/Users/brian.kleiner/Dev/Projects/Website/Agios/activatekidsclinicaltrials.com	1	zsh	:
+pane	website	4	0	:	1	:/Users/brian.kleiner/Dev/Projects/Website/Agios/pyrukynd.com	1	zsh	:
+window	config	1	:nvim	0	:	b3be,158x41,0,0,1	off
+window	config	2	:tmux	0	:	b3bf,158x41,0,0,2	off
+window	config	3	:wiki	0	:-	b3c0,158x41,0,0,3	off
+window	config	4	:zsh	1	:*	da11,158x41,0,0,22	:
+window	emails	1	:epclusa	0	:	b3c1,158x41,0,0,4	off
+window	emails	2	:sarclisa	0	:	b3c2,158x41,0,0,5	off
+window	emails	3	:fusionRTE	0	:	b3c3,158x41,0,0,6	off
+window	emails	4	:HepD	0	:-	b3c4,158x41,0,0,7	off
+window	emails	5	:nuzyra	1	:*	b3c5,158x41,0,0,8	off
+window	iva	1	:live	0	:-	b3c6,158x41,0,0,9	off
+window	iva	2	:stiolto	0	:	5a0f,158x41,0,0,10	off
+window	iva	3	:spiriva	1	:*	5a10,158x41,0,0,11	off
+window	panel	1	:ssc	0	:-	5a11,158x41,0,0,12	off
+window	panel	2	:zsh	1	:*	5a12,158x41,0,0,13	:
+window	playground	1	:excel	0	:	5a13,158x41,0,0,14	off
+window	playground	2	:vimwiki	0	:-	5a14,158x41,0,0,15	off
+window	playground	3	:sendgrid	0	:	5a15,158x41,0,0,16	off
+window	playground	4	:zsh	1	:*	5a16,158x41,0,0,17	:
+window	website	1	:pkuGoLikeHCP	1	:*	5a17,158x41,0,0,18	off
+window	website	2	:pkuGoLike	0	:-	5a18,158x41,0,0,19	off
+window	website	3	:acKidsTrl	0	:	da0f,158x41,0,0,20	off
+window	website	4	:pyrukynd	0	:	da10,158x41,0,0,21	off
+state	iva	
