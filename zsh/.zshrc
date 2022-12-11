@@ -123,13 +123,15 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # BK ADDITIONS
+# all configs
+alias dotconfig="nvim ~/.dotfiles"
 #
 # Vim
 alias vi="nvim"
 alias vimconfig="vim ~/.vimrc"
 #
 # Neovim
-alias nvimi="nvim +PlugInstall"
+alias nvimi="nvim +PackerSync"
 # old style
 # alias nvimconfig="nvim ~/.config/nvim/init.vim"
 alias nvimconfig="nvim ~/.config/nvim"
