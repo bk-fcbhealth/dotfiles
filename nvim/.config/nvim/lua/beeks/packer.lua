@@ -94,21 +94,24 @@ return require("packer").startup(function(use)
 
     -- Autocomplete stuff
     -- use("ms-jpq/coq_nvim")
-    use {'neoclide/coc.nvim', branch = 'release'}
+    -- use {'neoclide/coc.nvim', branch = 'release'}
     -- use("neoclide/coc.nvim", {branch = "release"})
-    use("neoclide/coc-html")
-    use("neoclide/coc-emmet")
-    use("neoclide/coc-json")
-    use("neoclide/coc-css")
-    use("neoclide/coc-tabnine")
+    -- use("neoclide/coc-html")
+    -- use("neoclide/coc-emmet")
+    -- use("neoclide/coc-json")
+    -- use("neoclide/coc-css")
+    -- use("neoclide/coc-tabnine")
     -- This includes JS as well
-    use("neoclide/coc-tsserver")
-    use("neoclide/coc-python")
+    -- use("neoclide/coc-tsserver")
+    -- use("neoclide/coc-python")
     -- improved JS indentation+syntax highlighting
     -- use("pangloss/vim-javascript")
     use("mxw/vim-jsx")
     use("mattn/emmet-vim")
 
+
+    use("williamboman/mason.nvim")
+    use("williamboman/mason-lspconfig.nvim")
 
 
 

@@ -94,46 +94,6 @@ _G.packer_plugins = {
     path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["coc-css"] = {
-    loaded = true,
-    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/coc-css",
-    url = "https://github.com/neoclide/coc-css"
-  },
-  ["coc-emmet"] = {
-    loaded = true,
-    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/coc-emmet",
-    url = "https://github.com/neoclide/coc-emmet"
-  },
-  ["coc-html"] = {
-    loaded = true,
-    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/coc-html",
-    url = "https://github.com/neoclide/coc-html"
-  },
-  ["coc-json"] = {
-    loaded = true,
-    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/coc-json",
-    url = "https://github.com/neoclide/coc-json"
-  },
-  ["coc-python"] = {
-    loaded = true,
-    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/coc-python",
-    url = "https://github.com/neoclide/coc-python"
-  },
-  ["coc-tabnine"] = {
-    loaded = true,
-    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/coc-tabnine",
-    url = "https://github.com/neoclide/coc-tabnine"
-  },
-  ["coc-tsserver"] = {
-    loaded = true,
-    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/coc-tsserver",
-    url = "https://github.com/neoclide/coc-tsserver"
-  },
-  ["coc.nvim"] = {
-    loaded = true,
-    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/coc.nvim",
-    url = "https://github.com/neoclide/coc.nvim"
-  },
   ["emmet-vim"] = {
     loaded = true,
     path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/emmet-vim",
@@ -198,6 +158,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
   },
   ["material.nvim"] = {
     loaded = true,
