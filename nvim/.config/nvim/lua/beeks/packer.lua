@@ -41,6 +41,7 @@ return require("packer").startup(function(use)
     use("tomasiser/vim-code-dark")
     use("marko-cerovac/material.nvim")
     use("sainnhe/sonokai")
+    use("rebelot/kanagawa.nvim")
     -- Fancy start screen with cow
     use("mhinz/vim-startify")
 
@@ -112,6 +113,29 @@ return require("packer").startup(function(use)
 
     use("williamboman/mason.nvim")
     use("williamboman/mason-lspconfig.nvim")
+    use {
+        'VonHeikemen/lsp-zero.nvim',
+        requires = {
+            -- LSP Support
+            {'neovim/nvim-lspconfig'},
+            {'williamboman/mason.nvim'},
+            {'williamboman/mason-lspconfig.nvim'},
+
+            -- Autocompletion
+            {'hrsh7th/nvim-cmp'},
+            {'hrsh7th/cmp-buffer'},
+            {'hrsh7th/cmp-path'},
+            {'saadparwaiz1/cmp_luasnip'},
+            {'hrsh7th/cmp-nvim-lsp'},
+            {'hrsh7th/cmp-nvim-lua'},
+
+            -- Snippets
+            {'L3MON4D3/LuaSnip'},
+            {'rafamadriz/friendly-snippets'},
+        }
+    }
+    
+
 
 
 

@@ -89,6 +89,16 @@ _G.packer_plugins = {
     path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["cmp-nvim-lua"] = {
+    loaded = true,
+    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
+    url = "https://github.com/hrsh7th/cmp-nvim-lua"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
+  },
   cmp_luasnip = {
     loaded = true,
     path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
@@ -98,6 +108,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/emmet-vim",
     url = "https://github.com/mattn/emmet-vim"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+    url = "https://github.com/rafamadriz/friendly-snippets"
   },
   ["fugitive-azure-devops.vim"] = {
     loaded = true,
@@ -134,10 +149,20 @@ _G.packer_plugins = {
     path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/indentLine",
     url = "https://github.com/Yggdroot/indentLine"
   },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
   ["lazygit.nvim"] = {
     loaded = true,
     path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
     url = "https://github.com/kdheepak/lazygit.nvim"
+  },
+  ["lsp-zero.nvim"] = {
+    loaded = true,
+    path = "/Users/brian.kleiner/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
+    url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
   ["lsp_extensions.nvim"] = {
     loaded = true,
