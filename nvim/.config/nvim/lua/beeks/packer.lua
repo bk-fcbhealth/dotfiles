@@ -134,7 +134,9 @@ return require("packer").startup(function(use)
             {'rafamadriz/friendly-snippets'},
         }
     }
-    
+
+    -- colors on hex values
+    use("NvChad/nvim-colorizer.lua")
 
 
 
